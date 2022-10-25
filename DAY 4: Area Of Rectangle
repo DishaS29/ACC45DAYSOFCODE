@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() 
+{
+    int l,w;
+    printf("Enter the length");
+    scanf("%d",&l);
+    printf("Enter the width");
+    scanf("%d",&w);
+    int a=l*w;
+    printf("Area of rectangle:%d",a);
+    return 0;
+}
