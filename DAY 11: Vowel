@@ -1,0 +1,44 @@
+#include<stdio.h>
+
+int main()
+{
+    char ch1;
+    printf("\n Enter the character input");
+    scanf("%c",&ch1);
+    switch(ch1)
+    {
+        case 'A':
+        printf("\n A is Vowel");
+        break;
+        case 'a':
+        printf("\n a is Vowel");
+        break;
+        case 'E':
+        printf("\n E is Vowel");
+        break;
+        case 'e':
+        printf("\n e is Vowel");
+        break;
+        case 'I':
+        printf("\n I is Vowel");
+        break;
+        case 'i':
+        printf("\n i is Vowel");
+        break;
+        case 'O':
+        printf("\n O is Vowel");
+        break;
+        case 'o':
+        printf("\n o is Vowel");
+        break;
+        case 'U':
+        printf("\n U is Vowel");
+        break;
+        case 'u':
+        printf("\n u is Vowel");
+        break;
+        default:
+        printf("Entered character is not a Vowel");
+    }
+    return 0;
+}
